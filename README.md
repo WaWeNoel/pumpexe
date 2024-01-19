@@ -15,6 +15,6 @@
 ## Demo
 
 <video width="320" height="240" controls>
-  <source src="https://streamable.com/thumbnail/kycp7p" type="video/mp4">
+  <source src="https://github.com/WaWeNoel/pumpexe/raw/main/assets/pumpexe.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
