@@ -14,5 +14,5 @@
 
 ## Demo
 
-[![Alt szöveg](assets/thumbnail.png)](https://streamable.com/kycp7p)
+[![Alt szöveg](assets/thu.png)](https://streamable.com/kycp7p)
 
