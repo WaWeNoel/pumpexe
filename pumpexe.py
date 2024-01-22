@@ -4,11 +4,11 @@ import os
 class TextColors:
     YELLOW_BLACK = '\033[43m\033[30m'
     ORANGE = '\033[33m'
-    ENDC = '\033[0m'
+    CYAN = '\033[36m'
     RED = '\033[31m'
     BACKGROUND_GREEN = '\033[42m'
     BACKGROUND_RED = '\033[41m'
-
+    ENDC = '\033[0m'
 def validate_file_path(exe_file):
     if not os.path.exists(exe_file):
         raise FileNotFoundError(f"{TextColors.YELLOW_BLACK}Error: The specified file or path '{exe_file}' does not exist.{TextColors.ENDC}")
@@ -43,14 +43,19 @@ def add_random_files(exe_file, file_size):
         print(f"{TextColors.BACKGROUND_RED}An error occurred: {e}{TextColors.ENDC}")
 
 def print_logo():
-    print("""
-    ___ _ _ _____ ___ ___ _ _ ___ 
+    logo = f"""
+    {TextColors.CYAN}___ _ _ _____ ___ ___ _ _ ___ 
    | . | | |     | . | -_|_'_| -_|
    |  _|___|_|_|_|  _|___|_,_|___|
    |_|           |_|              
            
-  Welcome to EXE file size pumper!
-""")
+  {TextColors.BACKGROUND_GREEN}Welcome to EXE file size pumper!{TextColors.ENDC}
+  --------------------------------
+  Version: {TextColors.CYAN}1.0.0{TextColors.ENDC}
+  By: {TextColors.CYAN}WaWeNoel{TextColors.ENDC}
+  Github: {TextColors.CYAN}https://github.com/WaWeNoel/{TextColors.ENDC}
+"""
+    print(logo)
 
 print_logo()
 
