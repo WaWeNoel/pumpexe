@@ -5,8 +5,8 @@
   pumpexe
   <br>
 </h1>
-  <a href="https://github.com/Rapptz/discord.py/">
-     <img src="https://img.shields.io/badge/discord-py-blue.svg" alt="discord.py">
+  <a href="https://www.python.org/">
+     <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" alt="python.org">
   </a>
   <br>
   
